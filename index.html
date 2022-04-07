@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/principal.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-busca.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-links.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-perfil.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-perfil.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/menu-dropdown.css">
+    <link rel="stylesheet" href="./assets/css/destaque.css">
+    <link rel="stylesheet" href="./assets/css/box-filmes.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+    <!-- owl css -->
+    <link rel="stylesheet" href="./assets/css/carrossel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/carrossel/owl.theme.default.min.css">
+    <title>Heroflix | Carrefour Web Developer Bootcamp</title>
+</head>
+<body class="scrolling__box">
+    <header>
+        <div class="cabecalho__container">
+            <h2 class="cabecalho__logo">Heroflix</h2>
+            <nav>
+                <div class="cabecalho__menu">
+                    <input type="search" class="cabecalho__busca" placeholder="&#xf002">
+                    <a href="#inicio">Início</a>
+                    <a href="#populares">Populares</a>
+                    <a href="#marvel">Marvel</a>
+                    <a href="#dc">DC Comics</a>
+                    <div class="cabecalho__perfil--dropdown dropdown">
+                        <a class="cabecalho__perfil--conta account" ><img src="./assets/img/profile.jpg" class="cabecalho__perfil"></a>
+                        <div class="cabecalho__perfil--submenu submenu">
+                        <ul class="root">
+                        <li ><a href="#" >Minha lista</a></li>
+                        <li ><a href="#" >Perfil</a></li>
+                        <li ><a href="#">Configurações</a></li>
+                        <li ><a href="#">Sair</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="conteudo__principal" id="inicio">
+        <div class="destaques__filmes">
+                <div class="destaques__container">
+                    <h3 class="destaques__titulo">Batman</h3>
+                    <p class="destaques__descricao">Bruce Wayne é um jovem bilionário da cidade de Gotham City, Nova Jersey, que também age secretamente como o vigilante noturno Batman após o assassinato dos seus pais. Com o realizador Matt Reeves no comando e protagonizado por Robert Pattinson no duplo papel de detetive de Gotham City e do seu alter ego, o bilionário solitário Bruce Wayne.</p>
+                    <div class="destaques__botoes">
+                        <button role="button" class="destaques__botao--assistir"><i class="fa-solid fa-play"></i>Assistir agora</button>
+                        <button role="button" id="info" class="destaques__botao--info"><i class="fa-solid fa-circle-info"></i>Mais informações</button>
+                    </div>
+            </div>
+        </div>
+        <!-- owl carousel -->
+        <div class="carrossel__filmes" id="populares">
+            <h2 class="carrossel__titulo">Populares</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-01.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-02.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-03.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-04.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-05.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-06.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-07.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-08.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-06.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-09.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-10.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-11.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-12.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-13.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-14.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-15.jpg"></div>
+                <div class="item"><img class="box__filmes" src="./assets/img/mini-16.jpg"></div>
+            </div>
+        </div>
+        <div class="carrossel__filmes--marvel" id="marvel">
+            <h2 class="carrossel__titulo--marvel">Marvel Comics</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-02.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-03.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-04.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-05.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-06.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-07.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-08.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-06.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-09.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-10.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-11.jpg"></div>
+                <div class="item"><img class="box__filmes--marvel" src="./assets/img/mini-15.jpg"></div>
+            </div>
+        </div>
+        <div class="carrossel__filmes--dc" id="dc">
+        <h2 class="carrossel__titulo--dc">DC Comics</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-12.jpg"></div>
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-13.jpg"></div>
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-14.jpg"></div>
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-16.jpg"></div>
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-17.jpg"></div>
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-18.jpg"></div>
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-19.jpg"></div>
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-20.jpg"></div>
+                <div class="item"><img class="box__filmes--dc" src="./assets/img/mini-21.jpg"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="footer_texto">por <a href="https://github.com/prissycorrea">Priscilla Correa</a></p> 
+    </footer>
+    <script src="https://kit.fontawesome.com/da1654f2ef.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/owl/jquery.min.js"></script>
+    <script src="./assets/js/owl/owl.carousel.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/perfil.js"></script>
+
+</body>
+</html>

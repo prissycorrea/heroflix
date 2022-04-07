@@ -1,0 +1,13 @@
+
+footer {
+    align-items: center;
+    color: var(--cinza);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+footer a {
+    color: var(--cinza);
+    text-decoration: none;
+}

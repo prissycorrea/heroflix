@@ -1,0 +1,25 @@
+.cabecalho__perfil {
+    align-self: center;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    height: 50px;
+    margin: auto 20px;
+    transition: all .5s linear;
+    width: 50px;
+}
+
+.cabecalho__perfil:hover {
+    -webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    box-shadow: 1px 0px 5px var(--vermelho);
+    cursor: pointer;
+    transition: width 0.3s;
+}
+
+.cabecalho__perfil--conta {
+    padding-bottom: 20px;
+}

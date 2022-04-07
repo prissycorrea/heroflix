@@ -1,0 +1,40 @@
+@media screen and (max-width:700px) {
+    .cabecalho__container {
+        display: flex;
+        flex-direction: column;
+        height: 130px;
+        width: 100vw;
+    }
+
+    .cabecalho__busca {
+        display: none;
+    }
+
+    .destaques__botao--info, .destaques__botao--assistir {
+        height: 60px;
+        margin-top: 5px;
+        width: 190px;
+    }
+
+    .destaques__container {
+        width: 50%;
+    }
+
+    .cabecalho__perfil {
+        display: none;
+    }
+
+    .destaques__filmes {
+        background-position: center;
+    }
+
+    .cabecalho__menu {
+        display: inline;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .destaques__container {
+        width: 50%;
+    }
+}

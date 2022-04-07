@@ -1,0 +1,21 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
+}
+
+.cabecalho__container {
+    align-items: center;
+    background-color: var(--preto);
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.cabecalho__menu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}

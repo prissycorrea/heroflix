@@ -1,0 +1,23 @@
+.cabecalho__busca {
+    background-color: #000000;
+    border: none;
+    border-radius: 28px;
+    font-family: "FontAwesome";    
+    font-size: 20px;
+    height: 50px;
+    margin-right: 10px;
+    padding: 10px;
+    transition: all 0.5s linear;
+    width: 60px;
+}
+
+.cabecalho__busca:focus {
+    color: var(--cinza);
+    outline: none;
+    transition: all 0.5s linear;
+    width: 200px;
+}
+
+.icone__busca {
+    padding: 5px;
+}
